@@ -1,0 +1,46 @@
+  160  python3 --version
+  161  sudo apt update
+  162  sudo apt install python3
+  163  ls
+  164  ls -a
+  165  sudo apt install python3-pip
+  166  sudo apt install python3-venv
+  167  mkdir SEL0337_Felipe_Gian
+  168  cd SEL0337_Felipe_Gian/
+  169  pinout
+  170  mkdir Pratica3
+  171  cd Pratica3/
+  172  python3 -m env 1033
+  173  python3 -m venv 1033
+  174  source 1033/bin/activate
+  175  python3 
+  176  nano Pratica3.py
+  177* 
+  178  nano Pratica3.py
+  179  python3 
+  180  python3 Pratica3.py 
+  181  pip install gpiozero
+  182  python3 Pratica3.py 
+  183  nano Pratica3.py
+  184  python3 Pratica3.py 
+  185  nano Pratica3.py
+  186  python3 Pratica3.py 
+  187  nano Pratica3.py
+  188  python3 Pratica3.py 
+  189  nano Pratica3.py
+  190  python3 Pratica3.py 
+  191  nano Pratica3.py
+  192  python3 Pratica3.py 
+  193  nano Pratica3.py
+  194  python3 Pratica3.py 
+  195  nano Pratica3.py
+  196  python3 Pratica3.py 
+  197  nano Pratica3.py
+  198  python3 Pratica3.py 
+  199  nano Pratica3.py
+  200  python3 Pratica3.py 
+  201  nano Pratica3.py
+  202  python3 Pratica3.py 
+  203  nano Pratica3.py
+  204  python3 Pratica3.py 
+  205  history>historico_pratica3.txt

@@ -1,0 +1,13 @@
+    1  ifconfig
+    2  sudo passwd root
+    3  sudo rasp-config
+    4  sudo raspi-config
+    5  sudo apt install neofetch 
+    6  neofetch 
+    7  pinout
+    8  sudo apt install nma
+    9  sudo apt install nmap
+   10  nmap -sp 192.100.1.1/24
+   11  nmap -sp 
+   12  nmap help
+   13  history>historico_aula.txt

@@ -1,0 +1,1000 @@
+ 1034  export ROS_IP=192.168.0.100
+ 1035  rostopic list
+ 1036  rqt &
+ 1037  rviz &
+ 1038  source ../../../devel/setup.sh
+ 1039  rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
+ 1040  cd ../../
+ 1041  cd ..
+ 1042  cd ../../
+ 1043  cd robovisor/pico/pico-robovisor/
+ 1044  ls
+ 1045  cd main/
+ 1046  ls
+ 1047  vi main.c 
+ 1048  nano main.c 
+ 1049  cd ../../../
+ 1050  ls
+ 1051  cd pico/
+ 1052  ls
+ 1053  cd build/main/
+ 1054  make
+ 1055  ls
+ 1056  cd ..
+ 1057  ls
+ 1058  make
+ 1059  cd ..
+ 1060  ls
+ 1061  cd pico/pico-robovisor/
+ 1062  ls
+ 1063  cd ../
+ 1064  ls
+ 1065  cd build/
+ 1066  ls
+ 1067  cd ..
+ 1068  rviz &
+ 1069  rosrun teleop_twist_keybo
+ 1070  rviz &
+ 1071  cd Documentos/Códigos/SEMEAR/robovisor/catkin_ws/src/
+ 1072  ls
+ 1073  cd prototipo1/src/
+ 1074  ls
+ 1075  cd ..
+ 1076  ls
+ 1077  cd bash/
+ 1078  ls
+ 1079  source test.bash 
+ 1080  vi known.targets 
+ 1081  source test.bash 
+ 1082  ssh robovisor@192.168.1.3
+ 1083  source test.bash 
+ 1084  ssh robovisor@192.168.1.3
+ 1085  ssh robovisor@192.168.0.101
+ 1086  ssh robovisor@192.168.1.101
+ 1087  source test.bash 
+ 1088  ls
+ 1089  source test.bash 
+ 1090  ssh robovisor@192.168.0.101
+ 1091  clear
+ 1092  ls
+ 1093  cd ..
+ 1094  cd pico/pico-robovisor/
+ 1095  ls
+ 1096  cd main/
+ 1097  make
+ 1098  cd ..
+ 1099  make
+ 1100  cd .. 
+ 1101  ls
+ 1102  cd build/main/
+ 1103  ls
+ 1104  make
+ 1105  ls
+ 1106  cd ..
+ 1107  cd pico-robovisor/
+ 1108  ls
+ 1109  mkdir build
+ 1110  make
+ 1111  cd build/
+ 1112  cmake ..
+ 1113  source test.bash 
+ 1114  rviz &
+ 1115  rqt &
+ 1116  cd ..
+ 1117  cd bash/
+ 1118  cd ..
+ 1119  source devel/setup.bash
+ 1120  rosrun teleop_twist_keyboard 
+ 1121  rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
+ 1122  cd ..
+ 1123  cd pico/pico-robovisor/
+ 1124  ls
+ 1125  cd build/
+ 1126  ls
+ 1127  make
+ 1128  cd ..
+ 1129  make
+ 1130  cd build/
+ 1131  ls
+ 1132  cd CMakeFiles/
+ 1133  ls
+ 1134  cd ..
+ 1135  ls
+ 1136  cd ..
+ 1137  ls
+ 1138  cd main/
+ 1139  ls
+ 1140  cd ..
+ 1141  ls
+ 1142  cd build/
+ 1143  ls
+ 1144  cmake ..
+ 1145  export PICO_SDK_PATH=../../pico-sdk
+ 1146  cmake ..
+ 1147  export PICO_SDK_PATH=../../../pico-sdk
+ 1148  cmake ..
+ 1149  cd ..
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  cd pico-robovisor/
+ 1154  ls
+ 1155  cd build/
+ 1156  export PICO_SDK_PATH=../../pico-sdk
+ 1157  cmake ..
+ 1158  export PICO_SDK_PATH=../pico-sdk
+ 1159  cmake ..
+ 1160  git submodule init
+ 1161  git submodule update
+ 1162  cd ..
+ 1163  ls
+ 1164  cd pico-sdk/
+ 1165  git clone https://github.com/raspberrypi/pico-sdk.git
+ 1166  cd ..
+ 1167  cd pico-robovisor/
+ 1168  cd build/
+ 1169  ls
+ 1170  export PICO_SDK_PATH=../../pico-sdk
+ 1171  cmake ..
+ 1172  export PICO_SDK_PATH=../../pico-sdk
+ 1173  cmake ..
+ 1174  setx PICO_SDK_PATH "..\..\pico-sdk"
+ 1175  export PICO_SDK_PATH=../../pico-sdk
+ 1176  cmake ..
+ 1177  ps
+ 1178  kill 17264
+ 1179  rviz &
+ 1180  rosrun teleop_twist_keyboard teleop_twist_keyboard.py 
+ 1181  ps
+ 1182  kill 23194 
+ 1183  cd Documentos/Códigos/SEMEAR/robovisor/catkin_ws/src/
+ 1184  ls
+ 1185  cd prototipo1/bash/
+ 1186  ls
+ 1187  source test.bash 
+ 1188  ssh robovisor@192.168.0.101
+ 1189  ssh robovisor@192.168.1.101
+ 1190  source test.bash 
+ 1191  ssh robovisor@192.168.0.101
+ 1192  ssh robovisor@192.168.1.101
+ 1193  ls
+ 1194  ssh robovisor@192.168.1.109
+ 1195  ls
+ 1196  cd Documentos/Códigos/SEMEAR/robovisor/catkin_ws/
+ 1197  source devel/setup.bash 
+ 1198  ls
+ 1199  clear
+ 1200  ls
+ 1201  cd src/
+ 1202  ls
+ 1203  vi .bashrc 
+ 1204  source .bashrc
+ 1205  ls
+ 1206  cd Downloads/
+ 1207  ls
+ 1208  rm saída.pdf 
+ 1209  ls
+ 1210  clear
+ 1211  ls
+ 1212  cd Documentos/Códigos/SEMEAR/
+ 1213  ls
+ 1214  rmdir robovisor/
+ 1215  ls
+ 1216  sudo rmdir robovisor/
+ 1217  ls
+ 1218  git clone https://github.com/Grupo-SEMEAR-USP/robovisor.git
+ 1219  ls
+ 1220  cd robovisor/
+ 1221  ls
+ 1222  cd catkin_ws/
+ 1223  ls
+ 1224  cd src/
+ 1225  ls
+ 1226  cd ..
+ 1227  catkin_mae
+ 1228  catkin_make
+ 1229  source devel/setup.bash
+ 1230  catkin_make
+ 1231  cd ..
+ 1232  git submodule update --init --recursive
+ 1233  ls
+ 1234  cd catkin_ws/
+ 1235  ls
+ 1236  cd src/
+ 1237  ls
+ 1238  git submodule add https://github.com/cra-ros-pkg/robot_localization.git
+ 1239  git commit -m "Adding the submodule for sensor fusion"
+ 1240  git status
+ 1241  git push
+ 1242  roscore
+ 1243  clear
+ 1244  rostopic list
+ 1245  cd ..
+ 1246  ls
+ 1247  catkin_make
+ 1248  ls
+ 1249  source devel/setup.bash
+ 1250  catkin_make
+ 1251  ls
+ 1252  cd build/
+ 1253  ls
+ 1254  cd ..
+ 1255  git submodule deinit robot_localization
+ 1256  ls
+ 1257  cd src/
+ 1258  ls
+ 1259  git submodule deinit robot_localization
+ 1260  git rm robot_localization
+ 1261  ls
+ 1262  git submodule add --
+ 1263  ls
+ 1264  git submodule add https://github.com/cra-ros-pkg/robot_localization.git
+ 1265  git submodule add --force  https://github.com/cra-ros-pkg/robot_localization.git
+ 1266  git submodule update --remote
+ 1267  git commit -m "Changing branch for robot_localization"
+ 1268  git add .
+ 1269  git commit -m "Changing branch for robot_localization"
+ 1270  git commit -a "Changing branch for robot_localization"
+ 1271  git add .
+ 1272  git commit -m "Changing branch for robot_localization"
+ 1273  cd ..
+ 1274  catkin_make
+ 1275  Changing branch for robot_localization
+ 1276  git submodule update --remote --merge
+ 1277  git submodule update --init --recursive
+ 1278  clear
+ 1279  catkin_make
+ 1280  ls
+ 1281  cd ..
+ 1282  cd
+ 1283  cd Documentos/Códigos/SEMEAR/
+ 1284  ls
+ 1285  git clone https://github.com/Grupo-SEMEAR-USP/robovisor.git
+ 1286  git submodule update --init --recursive
+ 1287  ls
+ 1288  cd robovisor/
+ 1289  ls
+ 1290  cd catkin_ws/
+ 1291  ls
+ 1292  cd src/
+ 1293  ls
+ 1294  git submodule update --init --recursive
+ 1295  ls
+ 1296  catkin_make
+ 1297  cd ..
+ 1298  catkin_make
+ 1299  catkin build
+ 1300  catkin_make_isolated
+ 1301  cd src/
+ 1302  ls
+ 1303  git submodule add -b noetic-devel https://github.com/cra-ros-pkg/robot_localization.git
+ 1304  git submodule deinit robot_localization
+ 1305  git rm robot_localization
+ 1306  ls
+ 1307  git submodule add -b noetic-devel https://github.com/cra-ros-pkg/robot_localization.git
+ 1308  rm -rf .git/modules/robot_localization
+ 1309  git submodule add -b noetic-devel https://github.com/cra-ros-pkg/robot_localization.git
+ 1310  git status
+ 1311  git commit -m "Trying to fix git submodules"
+ 1312  git push 
+ 1313  ls
+ 1314  git submodule add -b noetic-devel https://github.com/cra-ros-pkg/robot_localization.git
+ 1315  ls
+ 1316  cd ../..
+ 1317  rm -rf .git/modules/catkin_ws/src/robot_localization/
+ 1318  git config --remove-section submodule.catkin_ws/src/robot_localization/
+ 1319  ls
+ 1320  cd catkin_ws/src/
+ 1321  ls
+ 1322  git submodule add -b noetic-devel https://github.com/cra-ros-pkg/robot_localization.git
+ 1323  cd ..
+ 1324  catkin_make
+ 1325  cd src/robot_localization/
+ 1326  ls
+ 1327  ls src/
+ 1328  cd ..
+ 1329  git submodule add https://github.com/ros-geographic-info/geographic_info.git
+ 1330  cd ..
+ 1331  catkin_make
+ 1332  git submodule add https://github.com/ros-geographic-info/unique_identifier.git
+ 1333  cd ..
+ 1334  catkin_make
+ 1335  cd catkin_ws/
+ 1336  catkin_make
+ 1337  ls
+ 1338  cd ..
+ 1339  rm -rf .git/modules/catkin_ws/unique_identifier/
+ 1340  git config --remove-section submodule./catkin_ws/unique_identifier/
+ 1341  git config --remove-section submodule.catkin_ws/unique_identifier/
+ 1342  git rm /catkin_ws/unique_identifier/
+ 1343  git rm ]catkin_ws/unique_identifier/
+ 1344  git rm catkin_ws/unique_identifier/
+ 1345  cd catkin_ws/
+ 1346  ls
+ 1347  git rm unique_identifier/
+ 1348  git submodule deinit unique_identifier/
+ 1349  git rm unique_identifier/
+ 1350  cd src/
+ 1351  ls
+ 1352  git submodule add https://github.com/ros-geographic-info/unique_identifier.git
+ 1353  cd ..
+ 1354  catkin_make
+ 1355  rosdep install --from-paths src --ignore-src -r -y 
+ 1356  catkin_make
+ 1357  cd ..
+ 1358  git status
+ 1359  git add .
+ 1360  git commit -m "Implementing robot_localization"
+ 1361  git push
+ 1362  ls
+ 1363  cd catkin_ws/src/
+ 1364  cd prototipo1/bash/
+ 1365  ls
+ 1366  vi known.targets 
+ 1367  nano known.targets 
+ 1368  source test.bash 
+ 1369  sudo source test.bash
+ 1370  source test.bash 
+ 1371  ssh robovisor@192.168.1.109
+ 1372  clear
+ 1373  cd ../../..
+ 1374  rqt &
+ 1375  rviz &
+ 1376  rqt &
+ 1377  rviz &
+ 1378  rqt &
+ 1379  ssh robovisor@192.168.1.109
+ 1380  ls
+ 1381  cd Documentos/Códigos/SEMEAR/robovisor/
+ 1382  cd catkin_ws/src/prototipo1/bash/
+ 1383  ls
+ 1384  vi known.targets 
+ 1385  nano known.targets 
+ 1386  source test.bash 
+ 1387  rostopic list 
+ 1388  rviz &
+ 1389  source known.targets 
+ 1390  ssh robovisor@192.168.1.109
+ 1391  sudo apt install vim
+ 1392  vim .vimrc
+ 1393  roscd sensor_msgs/msg/
+ 1394  ls
+ 1395  vim CameraInfo.msg 
+ 1396  vi CameraInfo.msg 
+ 1397  reset
+ 1398  vim CameraInfo.msg 
+ 1399  roscd std_msgs/
+ 1400  cd msg/
+ 1401  vim Header.msg 
+ 1402  cd Documentos
+ 1403  ls
+ 1404  cd Códigos/
+ 1405  ls
+ 1406  cd SEMEAR/
+ 1407  ls
+ 1408  cd ROS-Object-Detection-2Dto3D-RealsenseD435/
+ 1409  ls
+ 1410  git status
+ 1411  vim .gitignore
+ 1412  ls
+ 1413  rm .gitignore 
+ 1414  ls
+ 1415  la
+ 1416  cd gif/
+ 1417  ls
+ 1418  cd ..
+ 1419  ls
+ 1420  git add .
+ 1421  git commit -m "Initial read and formatting on the code, for understanding the overall structure and premiss"
+ 1422  ls
+ 1423  l
+ 1424  la
+ 1425  rm .git/
+ 1426  rm -rf .git/
+ 1427  ls
+ 1428  la
+ 1429  rm -r gif/
+ 1430  ls
+ 1431  cd engine/
+ 1432  ls
+ 1433  cd ..
+ 1434  ls
+ 1435  cd ..
+ 1436  mv ROS-Object-Detection-2Dto3D-RealsenseD435/ robovisor/
+ 1437  cd robovisor/
+ 1438  ls
+ 1439  git status
+ 1440  git add .
+ 1441  git commit -m "Initial read and formatting on the code, for understanding the overall structure and premiss"
+ 1442  git push
+ 1443  git pull
+ 1444  git status
+ 1445  git pull
+ 1446  git status
+ 1447  git push
+ 1448  ls
+ 1449  cd Documentos/Códigos/
+ 1450  ls
+ 1451  cd SEMEAR/
+ 1452  ls
+ 1453  git clone https://github.com/Mazhichaoruya/ROS-Object-Detection-2Dto3D-RealsenseD435.git
+ 1454  cd ROS-Object-Detection-2Dto3D-RealsenseD435/
+ 1455  ls
+ 1456  cd realsense_d435/
+ 1457  ls
+ 1458  mkdir build 
+ 1459  cd build/
+ 1460  make
+ 1461  ls
+ 1462  cd ..
+ 1463  rmdir build/
+ 1464  ls
+ 1465  ssh robovisor@192.168.1.3
+ 1466  cd Documentos/Códigos/SEMEAR/robovisor/
+ 1467  ls
+ 1468  cd catkin_ws/
+ 1469  ls
+ 1470  cd src/
+ 1471  ls
+ 1472  cd prototipo1/
+ 1473  cd bash/
+ 1474  ls
+ 1475  vim known.targets 
+ 1476  source test.bash 
+ 1477  ssh robovisor@192.168.1.3
+ 1478  rviz &
+ 1479  ps
+ 1480  kill 8406
+ 1481  rviz &
+ 1482  rqt &
+ 1483  ps
+ 1484  kill 8453
+ 1485  ps
+ 1486  clear
+ 1487  rviz &
+ 1488  ps 
+ 1489  kill 8585
+ 1490  rostopic list
+ 1491  rviz &
+ 1492  rqt &
+ 1493  rostopic echo /camera/imu 
+ 1494  rviz &
+ 1495  rostopic echo /cmd_vel &
+ 1496  ps
+ 1497  kill 8740
+ 1498  kill 8662
+ 1499  ls
+ 1500  ps
+ 1501  kill 11555
+ 1502  rqt &
+ 1503  rviz &
+ 1504  ls
+ 1505  ps
+ 1506  kill 14682
+ 1507  rviz &
+ 1508  rqt &
+ 1509  rviz &
+ 1510  rostopic echo /camera/imu 
+ 1511  rostopic hz /camera/imu 
+ 1512  rviz &
+ 1513  rostopic hz /camera/imu 
+ 1514  echo ROS_IP
+ 1515  echo $ROS_IP
+ 1516  source test.bash 
+ 1517  rostopic echo /camera/imu
+ 1518  rostopic list
+ 1519  rostopic echo /cmd_vel
+ 1520  rostopic c info /imu/data
+ 1521  rostopic info /imu/data
+ 1522  rostopic info /camera/imu
+ 1523  rostopic echo /camera/imu
+ 1524  rostopic list
+ 1525  $ROS_MASTER_URI
+ 1526  source test.bash 
+ 1527  $ROS_MASTER_URI
+ 1528  rostopic list
+ 1529  source test.bash 
+ 1530  ps
+ 1531  kill 11944
+ 1532  rostopic list
+ 1533  rostopic hz /camera/imu
+ 1534  rostopic hz /imu/data
+ 1535  rivz &
+ 1536  rviz &
+ 1537  rostopic list
+ 1538  rostopic hz /imu/data
+ 1539  rqt &
+ 1540  rostopic hz /imu/data
+ 1541  source test.bash 
+ 1542  sudo nmtui
+ 1543  source test.bash 
+ 1544  reset
+ 1545  source test.bash 
+ 1546  sudo nmtui
+ 1547  reset
+ 1548  source test.bash 
+ 1549  rviz &
+ 1550  rostopic list
+ 1551  rostopic /camera/imu
+ 1552  rostopic hz /camera/imu
+ 1553  rviz &
+ 1554  rqt &
+ 1555  rviz &
+ 1556  rostopic list
+ 1557  rostopic hz /imu/data
+ 1558  rviz &
+ 1559  rostopic list
+ 1560  rostopic echo /mobile_base_controller/odom
+ 1561  rostopic echo /imu/data
+ 1562  cd ..
+ 1563  ls
+ 1564  cd bash
+ 1565  rviz &
+ 1566  rostopic echo /imu/data
+ 1567  rviz &
+ 1568  source test.bash 
+ 1569  rviz &
+ 1570  source test.bash 
+ 1571  rviz &
+ 1572  rqt &
+ 1573  rviz &
+ 1574  rostopic echo /camera/imu
+ 1575  rostopic c hz /camera/imu
+ 1576  rostopic hz /camera/imu
+ 1577  rviz &
+ 1578  rqt &
+ 1579  rviz &
+ 1580  rqt &
+ 1581  rviz &
+ 1582  rqt &
+ 1583  rviz &
+ 1584  rqt &
+ 1585  source test.bash 
+ 1586  rviz &
+ 1587  rosrun map_server map_saver -f salinha
+ 1588  scp salinha.pgm salinha.yaml robovisor@192.168.1.3:~/Documents/robovisor/catkin_ws/src/prototipo1/maps
+ 1589  rviz &
+ 1590  rostopic hz /camera/imu
+ 1591  rviz &
+ 1592  rostopic hz /camera/imu
+ 1593  rviz &
+ 1594  rostopic hz /camera/imu
+ 1595  rviz &
+ 1596  rostopic hz /camera/imu
+ 1597  rviz &
+ 1598  source 
+ 1599  source test.bash 
+ 1600  ssh robovisor@192.168.1.109
+ 1601  ls
+ 1602  cd Documentos/Códigos/SEMEAR/robovisor/catkin_ws/src/prototipo1/bash/
+ 1603  ls
+ 1604  source test.bash 
+ 1605  rostopic hz /camera/imu 
+ 1606  rqt &
+ 1607  rostopic hz /camera/imu 
+ 1608  rostopic list
+ 1609  rostopic echo /camera/imu
+ 1610  rostopic hz /camera/imu 
+ 1611  rviz &
+ 1612  rostopic hz /camera/imu 
+ 1613  rviz &
+ 1614  rqt &
+ 1615  rviz &
+ 1616  rqt &
+ 1617  rviz &
+ 1618  rqt &
+ 1619  rviz &
+ 1620  rqt &
+ 1621  rviz &
+ 1622  rosrun map_server map_saver -f salinha2
+ 1623  rviz &
+ 1624  rqt &
+ 1625  rviz &
+ 1626  clear
+ 1627  rostopic hz /imu/data
+ 1628  rviz &
+ 1629  rqt &
+ 1630  rviz &
+ 1631  cd ../../../
+ 1632  cd ../../
+ 1633  cd robovisor/
+ 1634  ls
+ 1635  rviz &
+ 1636  ls
+ 1637  cd Documentos/
+ 1638  cd Códigos/S
+ 1639  cd Códigos/
+ 1640  ls
+ 1641  cd IC/
+ 1642  ls
+ 1643  cd Ambiente\ de\ simulação/
+ 1644  ls
+ 1645  cd ..
+ 1646  cd terrasentia_sim/
+ 1647  ls
+ 1648  catkin_make
+ 1649  ls
+ 1650  cd catkin_ws/
+ 1651  ls
+ 1652  catkin_make
+ 1653  cd ..
+ 1654  git init
+ 1655  cd catkin_ws/
+ 1656  ls
+ 1657  cd src/
+ 1658  git submodule add https://github.com/ANYbotics/grid_map.git
+ 1659  catkin_make
+ 1660  cd ..
+ 1661  catkin_make
+ 1662  cd src/
+ 1663  ls
+ 1664  git submodule add https://github.com/ros-planning/navigation.git
+ 1665  cd ..
+ 1666  catkin_make
+ 1667  cd src/
+ 1668  git submodule add https://github.com/OctoMap/octomap_msgs.git
+ 1669  cd ..
+ 1670  ls
+ 1671  catkin_make
+ 1672  cd src/
+ 1673  ls
+ 1674  git submodule add https://github.com/ros/geometry2.git
+ 1675  cd ..
+ 1676  catkin_make
+ 1677  cd src/
+ 1678  ls
+ 1679  git submodule add https://github.com/ros-planning/navigation_msgs.git
+ 1680  cd ..
+ 1681  catkin_make
+ 1682  cd src/
+ 1683  git submodule add https://github.com/issaiass/hector_gazebo_plugins.git
+ 1684  cd ..
+ 1685  catkin_make
+ 1686  cd ..
+ 1687  ls
+ 1688  rm -rf .git
+ 1689  cd ..
+ 1690  ls
+ 1691  git clone https://github.com/toschilt/terrasentia_sim.git
+ 1692  cd
+ 1693  cd Documentos/Códigos/IC/
+ 1694  ls
+ 1695  cd terrasentia_sim
+ 1696  ls
+ 1697  cd catkin_ws/
+ 1698  catkin_make
+ 1699  ls
+ 1700  cd ..
+ 1701  git status
+ 1702  git add .
+ 1703  cd ..
+ 1704  ls
+ 1705  cd terrasentia_sim/
+ 1706  ls
+ 1707  git status
+ 1708  ls
+ 1709  cd catkin_ws/
+ 1710  ls
+ 1711  git add .
+ 1712  cd src/
+ 1713  ls
+ 1714  cd grid_map/
+ 1715  ls
+ 1716  cd ..
+ 1717  git add submodule https://github.com/ANYbotics/grid_map.git
+ 1718  git submodule add https://github.com/ANYbotics/grid_map.git
+ 1719  cd ..
+ 1720  ls
+ 1721  git clone https://github.com/toschilt/terrasentia_sim.git
+ 1722  cd terrasentia_sim/
+ 1723  ls
+ 1724  git status
+ 1725  cd catkin_ws/
+ 1726  cd src/
+ 1727  ls
+ 1728  git submodule add https://github.com/ros/geometry2.git
+ 1729  git submodule add https://github.com/ros-planning/navigation_msgs.git
+ 1730  ls
+ 1731  git submodule add https://github.com/issaiass/hector_gazebo_plugins.git
+ 1732  ls
+ 1733  cd ..
+ 1734  catkin_make
+ 1735  cd ..
+ 1736  git status
+ 1737  git add .
+ 1738  git status
+ 1739  git commit -m "Adding submodules" 
+ 1740  git push
+ 1741  git pull
+ 1742  git push
+ 1743  ls
+ 1744  git pull 
+ 1745  git status
+ 1746  ls
+ 1747  cd catkin_ws/
+ 1748  cd ..
+ 1749  cd Ambiente\ de\ simulação/Algoritmos\ DASLAB/
+ 1750  ks
+ 1751  ls
+ 1752  cd data_to_file/
+ 1753  ls la
+ 1754  la -la
+ 1755  cd ..
+ 1756  ls
+ 1757  cd terrasentia_sim/
+ 1758  cd catkin_ws/
+ 1759  catkin_make
+ 1760  ls
+ 1761  cd src/
+ 1762  ls
+ 1763  cd tcc_
+ 1764  cd tcc_simulation/
+ 1765  ls
+ 1766  cd ..
+ 1767  git submodule update --remote --merge
+ 1768  git pull
+ 1769  cd catkin_ws/
+ 1770  catkin_make
+ 1771  git submodule update --init --recursive
+ 1772  ls
+ 1773  catkin_make
+ 1774  sudo apt install cppad
+ 1775  catkin_make
+ 1776  cd src/
+ 1777  ls
+ 1778  cd tcc_navigation/
+ 1779  ls
+ 1780  cd mpc_controller/
+ 1781  ls
+ 1782  source ./install_ipopt.sh
+ 1783  cd ../..
+ 1784  cd ..
+ 1785  catkin_make
+ 1786  cd src/tcc_navigation/mpc_controller/
+ 1787  ls
+ 1788  source install_ipopt.sh
+ 1789  source ./install_ipopt.sh
+ 1790  ls
+ 1791  cd ..
+ 1792  ls
+ 1793  source ./install_ipopt.sh
+ 1794  cd ..
+ 1795  source ./install_ipopt.sh
+ 1796  sudo -i
+ 1797  cd ../..
+ 1798  catkin_make
+ 1799  cd ..
+ 1800  git status
+ 1801  git reset hard 
+ 1802  git reset --hard
+ 1803  cd catkin_ws/
+ 1804  catkin_make
+ 1805  /bin/python3 -m pip install -U autopep8
+ 1806  ls
+ 1807  pip install librosa
+ 1808  cd Documentos/Códigos/SEMEAR/Lisa/
+ 1809  ls
+ 1810  git clone https://github.com/GuitarsAI/ADSP_Tutorials.git
+ 1811  ls
+ 1812  cd Lisa/
+ 1813  cd 
+ 1814  cd Documentos/Códigos/SEMEAR/Lisa/Lisa/
+ 1815  ls
+ 1816  cd src/
+ 1817  ls
+ 1818  cd Servidor/
+ 1819  ls
+ 1820  python3 reconhecimentoAudio.py 
+ 1821  clear
+ 1822  python3 reconhecimentoAudio.py 
+ 1823  clear
+ 1824  python3 reconhecimentoAudio.py 
+ 1825  clear
+ 1826  python3 reconhecimentoAudio.py 
+ 1827  cd Documentos/Códigos/SEMEAR/
+ 1828  ls
+ 1829  cd Lisa/
+ 1830  cd 
+ 1831  ls
+ 1832  cd Documentos/Códigos/SEMEAR/Lisa/Lisa/
+ 1833  ls
+ 1834  cd src/
+ 1835  ls
+ 1836  cd Servidor/
+ 1837  ls
+ 1838  python3 reconhecimentoAudio.py 
+ 1839  pip install pydub
+ 1840  pip3 install --upgrade pip
+ 1841  pip install pydub
+ 1842  python3 reconhecimentoAudio.py 
+ 1843  apt-get install ffmpeg libavcodec-extra
+ 1844  sudo apt-get install ffmpeg libavcodec-extra
+ 1845  python3 reconhecimentoAudio.py 
+ 1846  sudo apt-get install ffmpeg libavcodec-extra
+ 1847  python3 reconhecimentoAudio.py 
+ 1848  pip install ipywidgets
+ 1849  python3 reconhecimentoAudio.py 
+ 1850  cd ../../..
+ 1851  ls
+ 1852  python3 plot_vocal_separation.py 
+ 1853  cd Lisa/
+ 1854  ls
+ 1855  cd src/Servidor/
+ 1856  ls
+ 1857  python3 reconhecimentoAudio.py 
+ 1858  pip install mutagen
+ 1859  python3 reconhecimentoAudio.py 
+ 1860  /bin/python3 /home/gian/Documentos/Códigos/SEMEAR/Lisa/plot_vocal_separation.py
+ 1861  sudo apt update
+ 1862  cd Documentos/Códigos/
+ 1863  ls
+ 1864  cd 6º\ Semestre/
+ 1865  ls
+ 1866  mkdir SEL0337
+ 1867  cd SEL0337/
+ 1868  man echo
+ 1869  cd Documentos/Códigos/6º\ Semestre/SEL0337/
+ 1870  ls
+ 1871  echo "INÍCIO DA PRÁTICA 1"
+ 1872  pwd 
+ 1873  echo "Foi criada uma pasta com o código da disciplina utilizando o comando mkdir"
+ 1874  echo "O diretório foi acessado via terminal com o comando cd $nome_do_diretório$"
+ 1875  mkdir pratica_1
+ 1876  cd pratica_1/
+ 1877  cd .. 
+ 1878  ls
+ 1879  cd pratica_1/
+ 1880  touch helloword.txt
+ 1881  nano helloword.txt 
+ 1882  cat helloword.txt 
+ 1883  find / -n '*.txt'
+ 1884  find / -name '*.txt'
+ 1885  find /home/gian/Documentos/Códigos/6º\ Semestre/SEL0337/ -name '*.txt'
+ 1886  grep 11800910 helloword.txt 
+ 1887  grep 11800910 helloword.txt | grep 11876933 helloword.txt 
+ 1888  grep 11800910 helloword.txt 
+ 1889  grep 11800910 helloword.txt & grep 11876933 helloword.txt 
+ 1890  grep 11800910 helloword.txt grep 11876933 helloword.txt 
+ 1891  cp helloword.txt /home/gian/Documentos/Códigos/6º\ Semestre/SEL0337/pratica_1/
+ 1892  cp helloword.txt olamundo.txt
+ 1893  ls
+ 1894  mv olamundo.txt ..
+ 1895  ls
+ 1896  cd ..
+ 1897  ls
+ 1898  cd pratica_1/
+ 1899  rm helloword.txt 
+ 1900  ls
+ 1901  cd .. 
+ 1902  rmdir pratica_1/
+ 1903  ls
+ 1904  history > backup_historico.txt
+ 1905  ls
+ 1906  tail -n backup_historico.txt 
+ 1907  tail -n* backup_historico.txt 
+ 1908  tail -20 backup_historico.txt 
+ 1909  tail -30 backup_historico.txt 
+ 1910  tail -40 backup_historico.txt 
+ 1911  neofetch 
+ 1912  ls
+ 1913  cd ..
+ 1914  rm -r SEL0337/
+ 1915  ls
+ 1916  mkdir SEL0337
+ 1917  cd SEL0337/
+ 1918  man echo 
+ 1919  echo "INÍCIO DA PRÁTICA 1"
+ 1920  pwd 
+ 1921  echo "Foi criada uma pasta com o código da disciplina utilizando o comando mkdir"
+ 1922  echo "O diretório foi acessado via terminal com o comando cd $dirName$"
+ 1923  mkdir pratica_1
+ 1924  cd pratica_1/
+ 1925  cd ..
+ 1926  ls
+ 1927  cd pratica_1/
+ 1928  touch helloword.txt
+ 1929  nano helloword.txt 
+ 1930  cat helloword.txt 
+ 1931  find /home/gian/Documentos/Códigos/6º\ Semestre/SEL0337/ -name '*.txt'
+ 1932  grep 11800910 helloword.txt & grep 11876933 helloword.txt 
+ 1933  clear
+ 1934  cp helloword.txt olamundo.txt
+ 1935  ls
+ 1936  mv olamundo.txt ..
+ 1937  rm helloword.txt 
+ 1938  ls
+ 1939  cd .. 
+ 1940  rm -r pratica_1/
+ 1941  ls
+ 1942  history > backup_historico.txt
+ 1943  tail -35 backup_historico.txt 
+ 1944  tail -27 backup_historico.txt 
+ 1945  neofetch 
+ 1946  clear
+ 1947  cd ..
+ 1948  rm -r SEL0337/
+ 1949  clear
+ 1950  mkdir SEL0337
+ 1951  cd SEL0337/
+ 1952  man echo 
+ 1953  echo "INÍCIO DA PRÁTICA 1"
+ 1954  pwd
+ 1955  echo "Foi criada uma pasta com o código da disciplina utilizando o comando mkdir"
+ 1956  echo "O diretório foi acessado via terminal com o comando cd dir_name"
+ 1957  mkdir pratica_1
+ 1958  cd pratica_1/
+ 1959  touch helloworld.txt
+ 1960  nano helloworld.txt 
+ 1961  cat helloworld.txt 
+ 1962  find /home/gian/Documentos/Códigos/6º\ Semestre/SEL0337/ -name '*.txt'
+ 1963  grep 11800910 helloword.txt & grep 11876933 helloword.txt 
+ 1964  clear
+ 1965  grep 11800910 helloworld.txt & grep 11876933 helloworld.txt 
+ 1966  clear
+ 1967  find /home/gian/Documentos/Códigos/6º\ Semestre/SEL0337/ -name '*.txt'
+ 1968  grep 11800910 helloworld.txt & grep 11876933 helloworld.txt 
+ 1969  cp helloworld.txt olamundo.txt
+ 1970  ls
+ 1971  mv olamundo.txt ..
+ 1972  rm helloworld.txt 
+ 1973  ls
+ 1974  cd ..
+ 1975  rm -r pratica_1/
+ 1976  ls
+ 1977  history > backup_historico.txt
+ 1978  tail -30 backup_historico.txt 
+ 1979  neofetch 
+ 1980  mkdir pratica_1
+ 1981  cd pratica_1/
+ 1982  cd ..
+ 1983  ls
+ 1984  cd pratica_1/
+ 1985  cd ..
+ 1986  rm -r pratica_1/
+ 1987  ls
+ 1988  rm olamundo.txt & rm backup_historico.txt 
+ 1989  ls
+ 1990  clear
+ 1991  mkdir pratica_1 
+ 1992  cd pratica_1/
+ 1993  cd ..
+ 1994  ls
+ 1995  cd pratica_1/
+ 1996  touch helloworld.txt
+ 1997  nano helloworld.txt 
+ 1998  cat helloworld.txt 
+ 1999  cd Documentos/Códigos/6º\ Semestre/SEL0337/
+ 2000  ls
+ 2001  rm -r pratica_1/
+ 2002  ls
+ 2003  man echo
+ 2004  echo 'INÍCIO DA PRÁTICA 1'
+ 2005  pwd
+ 2006  echo "Foi criada uma pasta com o código da disciplina utilizando o comando mkdir"
+ 2007  echo "O diretório foi acessado via terminal com o comando cd nome_do_diretório"
+ 2008  mkdir pratica_1
+ 2009  cd pratica_1/
+ 2010  cd ..
+ 2011  ls
+ 2012  cd pratica_1/
+ 2013  touch helloworld.txt
+ 2014  nano helloworld.txt 
+ 2015  cat helloworld.txt 
+ 2016  find /home/gian/Documentos/Códigos/6º\ Semestre/SEL0337/ -name '*.txt'
+ 2017  grep 11800910 helloword.txt && grep 11876933 helloword.txt 
+ 2018  grep 11800910 helloword.txt & grep 11876933 helloword.txt 
+ 2019  grep 11800910 helloworld.txt && grep 11876933 helloworld.txt 
+ 2020  cp helloword.txt /home/gian/Documentos/Códigos/6º\ Semestre/SEL0337/pratica_1/
+ 2021  cp helloworld.txt /home/gian/Documentos/Códigos/6º\ Semestre/SEL0337/pratica_1/
+ 2022  cp helloworld.txt olamundo.txt
+ 2023  ls
+ 2024  mv olamundo.txt ..
+ 2025  cd ..
+ 2026  ls
+ 2027  cd pratica_1/
+ 2028  rm helloworld.txt 
+ 2029  ls
+ 2030  cd ..
+ 2031  rmdir pratica_1/
+ 2032  ls
+ 2033  history > backup_historico.txt

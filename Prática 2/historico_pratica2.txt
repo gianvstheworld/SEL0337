@@ -1,0 +1,75 @@
+    1  ifconfig
+    2  sudo passwd root
+    3  sudo rasp-config
+    4  sudo raspi-config
+    5  sudo apt install neofetch 
+    6  neofetch 
+    7  pinout
+    8  sudo apt install nma
+    9  sudo apt install nmap
+   10  nmap -sp 192.100.1.1/24
+   11  nmap -sp 
+   12  nmap help
+   13  history>historico_aula.txt
+   14  ls
+   15  sudo apt unninstal nmap
+   16  sudo apt unninstall nmap
+   17  sudo apt purge nmap
+   18  sudo shutdown now
+   19  neofetch
+   20  ip addr
+   21  shutdown -h now
+   22  sudo passwd root
+   23  sudo raspi-config
+   24  neofetch
+   25  pinout
+   26  sudo apt update
+   27  sudo apt upgrade
+   28  history > historico.txt
+   29  history
+   30  ip addr
+   31  ifconfig
+   32  pijg google.com
+   33  ping google.com
+   34  ifconfig
+   35  history
+   36  sudo pswd root
+   37  sudo pswd usp
+   38  sudo password root
+   39  sudo passwd root
+   40  ls
+   41  sudo raspconfig
+   42  sudo raspiconfig
+   43  sudo raspi-config
+   44  sudo apt-get neofetch
+   45  sudo install neofetch
+   46  sudo apt-install neofetch
+   47  sudo aptinstall neofetch
+   48  sudo apt install neofetch
+   49  neofetch
+   50  ls
+   51  pinout
+   52  sudo apt update neofetch
+   53  sudo apt update
+   54  sudo apt update&&upgrade
+   55  sudo apt update && upgrade
+   56  sudo apt update && sudo apt upgrade
+   57  history > backup.txt
+   58  ls
+   59  sudo raspi-config
+   60  sudo if-config
+   61  sudo ifconfig
+   62  ifconfig
+   63  ping google.com
+   64  neofetch
+   65  pinout
+   66  ls
+   67  cat backup.txt 
+   68  sudo raspi-config
+   69  ping google.com
+   70  sudo apt update 
+   71  sudo apt upgrade
+   72  sudo apt upgrade && update
+   73  ifconfig
+   74  neofetch
+   75  history>historico_aula2.txt
