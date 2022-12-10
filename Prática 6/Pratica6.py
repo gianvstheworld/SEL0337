@@ -1,24 +1,32 @@
+# Módulos para fazer a requisição da API do clima
 import json
-
 from requests import get
 from pprint import pprint
 
+# Módulos para fazer a captura de imagem
 from time import sleep
 from picamera import PiCamera
 
-camera = PiCamera()
+camera = PiCamera() # Definindo câmera
 
+# URL da API do clima
 stations = 'https://apex.oracle.com/pls/apex/raspberrypi/weatherstation/getallstations'
 weather = 'https://apex.oracle.com/pls/apex/raspberrypi/weatherstation/getlatestmeasurements/'
 
+# Coordenadas da minha casa
 my_lat = -21.9900598
 my_lon = -47.8902261
 
+# Pegando todas as estações
 all_stations = get(stations).json()['items']
 
+# Booleano para saber se a estação mais próxima foi achada
 station_found = False
 
 def find_closest():
+    '''
+    Função para encontrar a estação mais próxima
+    '''
     global station_found
 
     closest_station = all_stations[0]
@@ -36,11 +44,13 @@ def find_closest():
 
 closest_station = find_closest()
 
+# Pegando os dados da estação mais próxima
 if station_found:
     weather += str(closest_station)
     weather = get(weather).json()['items']
     pprint(weather)
 
+    # Pegando a temperatura e a umidade
     for i in range(5):
         camera.start_preview()
         camera.annotate_text = "Temperatura: " + \
