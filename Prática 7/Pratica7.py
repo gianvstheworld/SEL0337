@@ -1,11 +1,14 @@
+# Importando biblioteca para comunicação 
 from smbus import SMBus
 
-addr = 0x8
-bus = SMBus(1)
-
-flag = 1
+addr = 0x8 # Endereço do dispositivo 
+bus = SMBus(1) # Inicializa o barramento 1
 
 '''
+# Variável para controlar o loop
+flag = 1
+
+# Envia um byte para o dispositivo
 print("LED control: ")
 while flag == 1:
     ledstate = int(input(""))
@@ -18,6 +21,6 @@ while flag == 1:
         flag = 0
 '''
 
-dados = bus.read_i2c_block_data(addr, 0, 2)
-soma = 256*dados[0] + dados[1]
+dados = bus.read_i2c_block_data(addr, 0, 2) # Recebe um byte do dispositivo
+soma = 256*dados[0] + dados[1] # Calcula a soma dos bytes recebidos
 print(dados, soma) 
