@@ -1,0 +1,11 @@
+[Unit]
+Description=Blink LED
+After=multi-user.target
+
+[Service]
+ExecStart=/home/sel/Documentos/SEL0337_Felipe_Gian/Pratica8.bash
+#ExecStop=
+user=sel
+
+[Install]
+WantedBy=multi-user.target
